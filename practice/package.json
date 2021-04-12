@@ -1,0 +1,16 @@
+{
+  "name": "rot13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon --ext js --exec jasmine",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.7.0",
+    "nodemon": "^2.0.7"
+  }
+}

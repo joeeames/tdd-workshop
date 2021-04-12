@@ -1,0 +1,12 @@
+module.exports.transform = function(input) {
+    if(input === '') return '';
+
+    let charCode = input.charCodeAt(0);
+    if(charCode >= codeFor("n") && charCode <= codeFor("z")) charCode -= 13 
+    else if(charCode >= codeFor("a") && charCode <= codeFor("m")) charCode += 13;
+    return String.fromCharCode(charCode);
+}
+
+function codeFor(letter) {
+    return letter.charCodeAt(0);
+}

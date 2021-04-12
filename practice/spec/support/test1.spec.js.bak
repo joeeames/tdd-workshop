@@ -1,0 +1,15 @@
+const rot13 = require('./rot13')
+
+describe('ROT-13', () => {
+    it('does nothing when empty', () => {
+        expect(rot13.transform("")).toBe("");
+    })
+
+    it('transforms lowercase letters', () => {
+        expect(rot13.transform('a')).toBe('n')
+        expect(rot13.transform('n')).toBe('a')
+        expect(rot13.transform('`')).toBe('`')
+        expect(rot13.transform('{')).toBe('{')
+        expect(rot13.transform('{')).toBe('{')
+    })
+})
