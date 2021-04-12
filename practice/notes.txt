@@ -1,0 +1,13 @@
+reqs
+4 types of dice result: blank, surge, hit, crit
+blanks aren't hits, crits and hits are
+func takes an array  results (enum)
+and an options object
+if surge to crit, convert all surges to crit
+if surge to hit, convert all surges to hits
+if cover 1, remove 1 hit
+if cover 2, remove 2 hits
+if defender has armor, remove all hits
+if attack has impact X & defender has armor, convert X hits to crit AFTER cover
+if attack has sharpshooter 1, reduce cover by 1
+if attack has sharpshooter 2, reduce cover by 2
