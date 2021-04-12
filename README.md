@@ -1,6 +1,6 @@
 # tdd-workshop
 
-install the repo
+clone the repo then run the following:
 
 ```
 cd toh
