@@ -7,7 +7,6 @@ import { HEROES } from './mock-heroes';
 
 @Injectable({ providedIn: 'root' })
 export class HeroService {
-  messages = [];
 
   constructor() { }
 
@@ -18,11 +17,7 @@ export class HeroService {
 
   getHero(id: number): Observable<Hero> {
     const hero = HEROES.find(h => h.id === id) as Hero;
-    this.messages.push("Getting Hero " + id);
     return of(hero);
   }
 
-  clearMessages() {
-    this.messages = [];
-  }
 }
