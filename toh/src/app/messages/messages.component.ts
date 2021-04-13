@@ -14,8 +14,5 @@ export class MessagesComponent implements OnInit {
   ngOnInit() {
   }
 
-  clearMessages() {
-    this.heroSvc.clearMessages();
-  }
 
 }
