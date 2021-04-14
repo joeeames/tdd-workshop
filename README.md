@@ -24,3 +24,7 @@ My pluralsight course on Unit Testing Angular: https://app.pluralsight.com/libra
 
 Note that you don't need to understand Angular particularly well to get the most out of this workshop.
 
+
+## Slides
+
+https://docs.google.com/presentation/d/1w3UGwVZFVoaAgvePkmfB7w_D9YKe7t1Wk27BMbK370s/edit?usp=sharing
