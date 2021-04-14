@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-messages',
@@ -8,7 +7,7 @@ import { HeroService } from '../hero.service';
 })
 export class MessagesComponent implements OnInit {
 
-  constructor(public heroSvc: HeroService) {
+  constructor() {
   }
 
   ngOnInit() {
